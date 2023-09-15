@@ -50,6 +50,12 @@
                     <a id="logoutBtn" class="nav-link" href="#">Salir</a>
                 </li>
                 @endguest
+                
+                <li class="nav-item">
+                  <a class="nav-link" href="{{ route('ads.create') }}">
+                    Nuevo anuncio
+                  </a>
+                </li>
             </ul>
         </div>
     </div>
